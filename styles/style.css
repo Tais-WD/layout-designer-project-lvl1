@@ -1,0 +1,116 @@
+@import 'flex.css';
+@import 'typographie.css';
+@import 'colors.css';
+@import 'indentation.css';
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+
+.overflow-hid {
+  overflow-x: hidden; 
+}
+
+.wrapper {
+
+  position: relative; 
+
+  width: 1110px;
+
+  margin: 0 auto;
+}
+
+.text-block {
+
+  z-index: 3;
+
+  width: 540px;
+}
+
+.header-image {
+  position: absolute;
+  top: 55px;
+  right: -270px;
+  z-index: 1;
+
+  height: 525px;
+}
+
+.primary-link {
+  padding: 12px 24px;
+}
+
+.about {
+  height: 780px;
+}
+
+.about-title,
+.video {
+  align-self: center;
+
+  text-align: center;
+}
+
+.card {
+  width: 350px;
+  height: 348px;
+}
+
+.article-title {
+  flex-basis: 502px;
+}
+
+.article-img {
+  flex-basis: 578px;
+}
+
+.article-img,
+.video {
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.subscribe-btn {
+  position: relative;
+  top: -4.8px;
+  right: 5px;
+
+  width: 62px;
+  height: 50px;
+ 
+  padding: 0; 
+
+  border: none;
+}
+
+.subscribe-input {
+  width: 423px;
+  height: 50px;
+ 
+  padding: 0; 
+
+  border: none;
+}
+
+.subscribe-btn::before {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+
+  content: url('data:image/svg+xml;charset=utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 2L11 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+}
+
+.subscribe-input::placeholder {
+  color: #f5f4f0;
+  
+  font-size: 15px;
+}
+
+.copywrite {
+  text-align: center;
+}

@@ -1,0 +1,86 @@
+html {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6em;
+}
+
+h1,
+h2,
+h3,
+.number,
+.card-text,
+.card-text-large,
+.cognitive-distortions,
+.distortion-description {
+
+  font-family: 'Neucha', cursive;
+}
+
+h1 {
+
+  z-index: 5; 
+
+  font-size: 72px;
+  line-height: 86px;
+}
+
+h2 {
+  font-size: 60px;
+  line-height: 72px;
+}
+
+h3, 
+.distortion-description {
+  font-size: 34px;
+  line-height: 41px;
+}
+
+.card-text-large {
+  font-size: 52px;
+  line-height: 120%;
+}
+
+.cognitive-distortions {
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.subheader,
+.copywrite-title {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.subheader {
+  text-transform: uppercase;
+}
+
+.link-bold {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+.number {
+  margin: 0 0 40px 0;
+
+  font-size: 64px;
+}
+
+.input-title {
+
+  margin: 0 0 5px 0;
+
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.terms-text {
+
+  margin: 3px 0;
+
+  font-size: 12px;
+  line-height: 160%;
+}

@@ -1,0 +1,97 @@
+
+html {
+  color: #2a2626;
+}
+
+.color-primary {
+  color: #fe8a02;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-secondaryDark {
+  color: #2a2626;
+}
+
+.color-secondary {
+  color: #908d8b;
+}
+
+.color-secondaryLight {
+  color: #d7ccc0;
+}
+
+.color-brown {
+  color: #b09a81;
+}
+
+.color-blue {
+  color: #1085c5;
+}
+
+.bg-primary {
+  background-color: #fe8a02;
+}
+
+.bg-light {
+  background-color: #f5f4f0;
+}
+
+.bg-primary-dark {
+  background-color: #42413c;
+}
+
+.bg-brown {
+  background-color: #b09a81;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-pattern-dark,
+.bg-pattern-light {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-pattern-light {
+  background: url('../img/pattern.png')  #f5f4f0;
+  
+  opacity: 0.9;
+}
+
+.bg-pattern-dark {
+  background: url('../img/pattern.png') #b09a81;
+  
+  opacity: 0.9;
+}
+
+.primary-hover:hover {
+  background-color: #fe8a02;
+}
+
+.primary-link-color {
+  color: #fff;
+
+  background-color: #fe8a02;
+}
+
+.primary-link-color:hover {
+  background-color: #ea7600;
+}
+
+.card-hover:hover {
+  background-color: #fe8a02;
+}
+
+.card-hover:hover .text-hover {
+  color: #fff;
+}
+
+.card-link-color {
+  color: #2a2626;
+  text-decoration: none;
+}
